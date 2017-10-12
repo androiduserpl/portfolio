@@ -1,42 +1,121 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Adrian Nowakowski</title>
-    
+
     <!-- fonts google -->
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Montserrat|Roboto+Slab" rel="stylesheet">
-    
+
     <!-- RWD -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    
+
     <!-- font-awsome -->
     <link rel="stylesheet" href="font-awesome/fonts/FontAwesome.otf">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    
+
     <!-- style sheets -->
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
-  
-  
-  
-  
-  
-  
-  
-  
-   
-    <!-- scripst -->
+
+    <!-- nav bar-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav-menu">
+        <div class="container-fluid">
+
+            <!-- Brand and toggle get grouped for better mobile display // marka i hamburger -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#glowne-menu" aria-expanded="false">
+                <span class="sr-only">Toglle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a href="#" id="brand" class="navbar-brand text-capitalize"></a>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collaps navbar-collapse" id="glowne-menu">
+                    <ul class="nav navbar-collapse" id="main-menu">
+                        <li><a href="#link1">link1</a></li>
+                        <li><a href="#link2">link2</a></li>
+                        <li><a href="#link3">link3</a></li>
+                        <li><a href="#link4">link4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- END nav bar -->
+    </nav>
+
+    <!-- header -->
+    <header id="main-header">
+        <div id="header-content">
+            <h2>krótki tekst</h2>
+            <h1>Adrian Nowakowski portfolio</h1>
+            <button class="text-uppercase btn btn-lg">zobacz więcej</button>
+            <!-- przycisk przerzuci do sekcji niżej -->
+
+        </div>
+    </header>
+
+    <!-- END header -->
+
+    <!-- services -->
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-header collg-12">
+                    <h2 class="text-uppercase">Usługi</h2>
+                    <p>Zobacz czym się zajmuję</p>
+                </div>
+            </div>
+            
+            <!-- ikonki + opisy -->
+                <div class="row">
+                    <div class="services col-sm-4 col-xs-12">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <h3>Web Development</h3>
+                        <p>Opis krótki (jeden paragraf)</p>
+                    </div>
+                    <div class="services col-sm-4 col-xs-12">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <h3>E-Commerce</h3>
+                        <p>Opis krótki (jeden paragraf)</p>
+                    </div>
+                    <div class="services col-sm-4 col-xs-12">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i>
+                        <h3>Web Design</h3>
+                        <p>Opis krótki (jeden paragraf)</p>
+                    </div>
+                </div>
+
+        </div>
+
+    </section>
+
+    <!-- END services -->
     
+    <!-- portfolio -->
+    
+    <h1>zaraz po papierosku</h1>
+    
+    <!-- END portfolio -->
+
+    <!-- scripst -->
+
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
-    
+
     <!-- RWD -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    
+
     <!-- custom JS -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
